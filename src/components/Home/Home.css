@@ -1,0 +1,33 @@
+#home {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+}
+.home-content {
+  /* backdrop-filter: blur(10px); */
+}
+/* Media Query */
+
+/* 2 Extra Large */
+@media screen and (max-width: 1400px) {
+}
+
+/*  Extra Large */
+@media screen and (max-width: 1200px) {
+}
+
+/*  Large */
+@media screen and (max-width: 992px) {
+}
+
+/* Medium */
+@media screen and (max-width: 760px) {
+}
+
+/* Small */
+@media screen and (max-width: 576px) {
+  #home {
+    height: 650px;
+    width: 100%;
+  }
+}

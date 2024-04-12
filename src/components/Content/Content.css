@@ -1,0 +1,244 @@
+.content_main {
+  backdrop-filter: blur(7px);
+  height: 20rem;
+  margin-top: 100px;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.content_section {
+  display: grid;
+  height: 560px;
+  justify-items: center;
+  padding-top: 5rem;
+}
+.content_section h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.content_section h1 span {
+  color: brown;
+  text-shadow: 0 0 1px white, 0 0 2px white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.content_section h2 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.content_section h2 span {
+  color: yellow;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.content_section p {
+  margin-top: 2rem;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+}
+.buttons {
+  padding: 23px 160px;
+}
+button {
+  width: 200px;
+  padding: 14px;
+  font-size: 18px;
+}
+.btn-first {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-right: 2rem;
+}
+
+.btn-first:hover {
+  background-color: rgb(15, 217, 65);
+  border: 2px solid rgb(15, 217, 65);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgb(15, 217, 65), 0 0 25px rgb(15, 217, 65),
+    0 0 50px rgb(15, 217, 65), 0 0 100px rgb(15, 217, 65),
+    0 0 200px rgb(15, 217, 65);
+  transition: 0.3s;
+}
+
+.btn-second {
+  background-color: brown;
+  border: 2px solid brown;
+  color: white;
+  margin-left: 2rem;
+}
+
+button:hover {
+  background-color: brown;
+  border: 2px solid brown;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 5px brown, 0 0 25px brown, 0 0 50px brown, 0 0 100px brown,
+    0 0 200px brown;
+  transition: 0.3s;
+}
+
+/* Media Query */
+
+/* 2 Extra Large */
+@media screen and (max-width: 1400px) {
+}
+
+/*  Extra Large */
+@media screen and (max-width: 1200px) {
+  .content_section {
+    height: 400px;
+    padding-top: 0.2rem;
+  }
+  .content_main {
+    height: 20rem;
+    width: 35rem;
+    margin-top: 70px;
+    padding: 3.5rem;
+  }
+  .content_section h1 {
+    font-size: 58px;
+    font-weight: 600;
+  }
+  .content_section h2 {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .content_section p {
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .buttons {
+    padding: 23px 50px;
+    display: flex;
+  }
+  button {
+    width: 140px;
+    padding: 12px;
+    font-size: 15px;
+  }
+  .btn-first {
+    margin-right: 0.2rem;
+  }
+  .btn-second {
+    margin-left: 2rem;
+  }
+}
+
+/*  Large */
+@media screen and (max-width: 992px) {
+  .content_section {
+    height: 400px;
+    padding-top: 0.6rem;
+  }
+  .content_main {
+    height: 20rem;
+    width: 35rem;
+    margin-top: 70px;
+    padding: 3.5rem;
+  }
+  .content_section h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .content_section h2 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .content_section p {
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .buttons {
+    padding: 23px 50px;
+    display: flex;
+  }
+  button {
+    width: 140px;
+    padding: 12px;
+    font-size: 14px;
+  }
+  .btn-first {
+    margin-right: 0.2rem;
+  }
+  .btn-second {
+    margin-left: 2rem;
+  }
+}
+
+/* Medium */
+@media screen and (max-width: 760px) {
+  .content_section {
+    height: 400px;
+    padding-top: 2.5rem;
+  }
+  .content_main {
+    height: 17rem;
+    width: 25rem;
+    margin-top: 120px;
+    padding: 1rem;
+  }
+  .content_section h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .content_section h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .content_section p {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .buttons {
+    padding: 23px 60px;
+    display: flex;
+  }
+  button {
+    width: 120px;
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 576px) {
+  .content_section {
+    height: 350px;
+    padding-top: 2rem;
+  }
+  .content_main {
+    height: 12rem;
+    width: 25rem;
+    margin-top: 120px;
+  }
+  .content_section h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .content_section h2 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .content_section p {
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  button {
+    width: 100px;
+    padding: 10px;
+    font-size: 10px;
+  }
+}
